@@ -12,6 +12,16 @@ to learn terraform modules with git
 
 ## How to use this
 
+You can use this module from the code in github, create a file like `main.tf`
+
+```
+module "mymodule" {
+  source = "github.com/kikitux/tf-task-module"
+}
+```
+
+Or you can clone this and check the example code in `example/` folder.
+
 - clone this repo
 - cd into example
 - run the code from example as reference
@@ -24,6 +34,7 @@ terraform apply
 
 
 ## TODO
+N/A
 
 ## DONE
 - [x] this module will create 2 resources a web and a db
