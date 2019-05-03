@@ -4,6 +4,7 @@ my awesome description that will make mr dragon happy
 ## What this module does
 
 This module is a test code that shows how to write a module for terraform.
+
 We will provide a db and web resource using `null_provider`
 
 In the practical world, this won't create a web nor a db, but it's a good task
